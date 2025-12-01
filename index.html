@@ -30,14 +30,24 @@
     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./img/xxlove.png" />
 
 
-<script type="text/javascript" src="./sw.js"></script>    
- 
-<script type="text/javascript" src="./js/lazyload.js"></script>
-<script src="https://fpyf8.com/88/tag.min.js" data-zone="113785" async data-cfasync="false"></script>
-<script src="https://fpyf8.com/88/tag.min.js" data-zone="113781" async data-cfasync="false"></script>
-<script src="https://fpyf8.com/88/tag.min.js" data-zone="102090" async data-cfasync="false"></script>
-<script>(function(s){s.dataset.zone='8861076',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./popup.js"></script>
+    <script>
+        // SmartPopunder.make('https://www.effectivegatecpm.com/u0aqskee5d?key=bb187d37c4669fcf51023105c30ceb34', {newTab: false});
+        SmartPopunder.make('https://www.effectivegatecpm.com/gybkutzz1?key=d8dd69f9f4d921a41e298826392baa18', {newTab: true, cookieExpires: 12 * 60}); // 10 hours
+        // version 2.3
+        SmartPopunder.make('https://www.effectivegatecpm.com/pmgenrc6e?key=16189630d28387953070dda9c69afd79', {
+          newTab: true,
+          beforeOpen: function(pop) {
+            console.log(pop);
+            alert('before fired');
+          },
+          afterOpen: function(pop) {
+            console.log(pop);
+            alert('after fired');
+          }
+        });
+    </script>
 </head>
 <body>
 
@@ -371,6 +381,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 <!-- Histats.com  END  -->
 </body>
 </html>
+
 
 
 
