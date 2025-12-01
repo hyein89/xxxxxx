@@ -30,10 +30,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./img/xxlove.png" />
 
     <script type="text/javascript" src="//protectorav.online/av.js" id="pop" pl="1761" zn="893" frequency="2"></script>
+    <script async src="//protectorav.online/interstitial.js" pl="1761" zn="893"></script>
+<script async src="//protectorav.online/push.js" id="inpage" pl="1761" zn="893"></script>
+
     
 </head>
 <body>
 
+<script src="//protectorav.online/vignette.js" pl="1761" zn="893" async></script>
+    <script src="//protectorav.online/floatvideo.js" pl="1761" zn="893"></script>
 
     
 <span blockId="229"><!--
@@ -331,14 +336,19 @@ fetch('output.json')
     .catch(err => console.error("Gagal ambil JSON:", err));
 </script>
 <center>
-<script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
- <ins class="eas6a97888e20" data-zoneid="5787282"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script>
+<script type="text/javascript">
+(function(){
+var adslotID="adslot";  
+adslotID += parseInt(Math.random()*100000); 
+var adspace = document.createElement('script');
+adspace.src = '//protectorav.online/banner?pl=1761&zn=893&type=2&slot='+adslotID+'';
+adspace.setAttribute('async', 'true');
+document.write('<div id="'+adslotID+'"></div>');
+document.documentElement.firstChild.appendChild(adspace);
+})();
+</script>
 
-
-   <script async type="application/javascript" src="https://a.magsrv.com/ad-provider.js"></script> 
- <ins class="eas6a97888e37" data-zoneid="5787284"></ins> 
- <script>(AdProvider = window.AdProvider || []).push({"serve": {}});</script> 
+    
 </center>
 <div style="width:100%">
         <div class="showMore" onclick="showMore(50, 0, )">SHOW MORE VIDEOS</div>
@@ -418,6 +428,7 @@ if (typeof call !== 'undefined') {link.onload = call;}document.getElementsByTagN
     
 </body>
 </html>
+
 
 
 
